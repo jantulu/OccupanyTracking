@@ -1,0 +1,35 @@
+
+
+{
+  "sites": [
+    {
+      "id": "AMC-1",
+      "name": "AMC Office",
+      "location": "Manitowoc, WI",
+      "capacity": 250,
+      "enabled": true,
+      "switches": [
+        {
+          "id": "AMC-MDF1",
+          "name": "Main Distribution",
+          "ipAddress": "10.1.6.245",
+          "community": "public",
+          "stackMembers": 4,
+          "enabled": true,
+          "excludedVlans": [""],
+          "excludedPorts": ["gigabitEthernet1/0/1","gigabitEthernet1/0/10","gigabitEthernet1/0/11","gigabitEthernet2/0/6","gigabitEthernet4/0/3","gigabitEthernet4/0/4","gigabitEthernet4/0/8","gigabitEthernet4/0/11","gigabitEthernet4/0/15","gigabitEthernet4/0/24","gigabitEthernet4/0/34","gigabitEthernet4/0/36","gigabitEthernet4/0/44", "GigabitEthernet4/0/12"]
+        },
+        {
+          "id": "IDF01",
+          "name": "AMC-IDF01",
+          "ipAddress": "10.1.7.245",
+          "community": "public",
+          "stackMembers": 6,
+          "enabled": true,
+          "excludedVlans": [""],
+          "excludedPorts": ["gigabitEthernet3/0/47","gigabitEthernet4/0/17","gigabitEthernet4/0/19","gigabitEthernet4/0/20","gigabitEthernet4/0/22","gigabitEthernet4/0/24","gigabitEthernet4/0/26","gigabitEthernet4/0/28","gigabitEthernet4/0/30","gigabitEthernet0/37","gigabitEthernet5/0/38","gigabitEthernet5/0/42", "GigabitEthernet2/0/13", "GigabitEthernet2/0/19"]
+        }
+      ]
+    }
+  ]
+}
