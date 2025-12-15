@@ -59,7 +59,3 @@ docker-compose logs -f
 # View specific service logs
 docker-compose logs -f backend
 docker-compose logs -f frontend
-```
-# OccupanyTracking
-# OccupanyTracking
-# OccupanyTracking
