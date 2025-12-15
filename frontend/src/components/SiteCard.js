@@ -161,7 +161,7 @@ const SiteCard = ({ site, sessions, history, isExpanded, globalSettings, onToggl
                 <table className="w-full text-sm">
                   <thead>
                     <tr className="border-b">
-                      <th className="text-left p-2">Device (MAC)</th>
+                      <th className="text-left p-2">Switch Port</th>
                       <th className="text-left p-2">Switch</th>
                       <th className="text-left p-2">First Seen</th>
                       <th className="text-left p-2">Last Active</th>
