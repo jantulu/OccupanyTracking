@@ -366,7 +366,7 @@ class SwitchPoller {
         sess.subtree('1.3.6.1.4.1.9.9.68.1.2.2.1.2', feedCb, (error) => {
           session2.close();
           if (error) {
-            console.log('VLAN info not available (this is OK) - using default VLAN 1 for all ports');
+            console.log('VLAN info not available - using default VLAN 1 for all ports');
             resolve(vlanMap);
           } else {
             console.log(`Found VLAN info for ${Object.keys(vlanMap).length} interfaces on ${this.host}`);

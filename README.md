@@ -2,31 +2,21 @@
 
 ## Quick Start
 
-1. **Copy your existing code:**
-   ```bash
-   # Backend
-   cp ~/snmp-capacity-backend/server.js backend/
-   cp ~/snmp-capacity-backend/package.json backend/
-   
-   # Frontend  
-   cp -r ~/capacity-dashboard/src frontend/
-   cp -r ~/capacity-dashboard/public frontend/
-   cp ~/capacity-dashboard/package.json frontend/
-   ```
 
-2. **Edit switch configuration:**
+
+1. **Edit switch configuration:**
    ```bash
    nano backend/sites-config.json
    ```
 
-3. **Start services:**
+2. **Start services:**
    ```bash
    ./start.sh
    ```
 
-4. **Access dashboard:**
+3. **Access dashboard:**
    - Frontend: http://localhost
-   - Backend: http://localhost:3000
+   - Backend: http://localhost:3000 *backend isn't directly accessible*
 
 ## Commands
 
